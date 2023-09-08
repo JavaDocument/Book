@@ -12,6 +12,7 @@ import java.util.List;
 
 public class RandomName {
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         List<String> nameList = new ArrayList<>();
 

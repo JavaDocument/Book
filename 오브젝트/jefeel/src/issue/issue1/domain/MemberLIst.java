@@ -1,4 +1,4 @@
-package issue.issue1;
+package issue.issue1.domain;
 
 
 import java.util.ArrayList;
