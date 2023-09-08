@@ -3,7 +3,7 @@ package chap02;
 
 public class PercentDiscountPolicy extends DiscountPolicy{
 
-    private double percent;
+    private final double percent;
 
     public PercentDiscountPolicy(double percent, DiscountCondition... conditions) {
         super(conditions);
