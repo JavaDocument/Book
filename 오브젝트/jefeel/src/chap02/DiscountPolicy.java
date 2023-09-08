@@ -7,6 +7,7 @@ import java.util.List;
 
 
 public abstract class DiscountPolicy {
+//    하위 클래스들이 구현을 공유해야 되므로 abstract class 사용
 
     private List<DiscountCondition> conditions = new ArrayList<>();
 
